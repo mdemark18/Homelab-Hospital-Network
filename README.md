@@ -94,9 +94,9 @@ flowchart LR
 ```
 
 ## Further Documentation
--[VLAN Design](docs/vlan-design.md)
--[Switch Configuration](docs/switch-config.md)
--[Router Configuration](docs/router-config.md)
--[Software Used](docs/software.md)
--[Hospital Configuration](docs/hospital-emu.md)
--[Images(as seen in docs)](docs/images/)
+- [VLAN Design](docs/vlan-design.md)
+- [Switch Configuration](docs/switch-config.md)
+- [Router Configuration](docs/router-config.md)
+- [Software Used](docs/software.md)
+- [Hospital Configuration](docs/hospital-emu.md)
+- [Images(as seen in docs)](docs/images/)
