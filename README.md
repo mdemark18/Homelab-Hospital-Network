@@ -91,7 +91,7 @@ flowchart LR
     VM4 --> NIC4 -->|"Access VLAN 40"| Switch
 
     Switch -->|"802.1Q Trunk"| Router
-```mermaid
+```
 
 ## Further Documentation
 -[VLAN Design](docs/vlan-design.md)
