@@ -61,14 +61,14 @@ The network is designed with strict Layer 2 and Layer 3 separation:
 
 ```mermaid
 flowchart LR
-    %% ===== Styles =====
-    classDef vlan10 fill:#cce5ff,stroke:#004085,stroke-width:2px
-    classDef vlan20 fill:#d4edda,stroke:#155724,stroke-width:2px
-    classDef vlan30 fill:#fff3cd,stroke:#856404,stroke-width:2px
-    classDef vlan40 fill:#f8d7da,stroke:#721c24,stroke-width:2px
+    %% ===== High-contrast styles for GitHub =====
+    classDef vlan10 fill:#b8daff,color:#000000,stroke:#004085,stroke-width:2px
+    classDef vlan20 fill:#c3e6cb,color:#000000,stroke:#155724,stroke-width:2px
+    classDef vlan30 fill:#ffeeba,color:#000000,stroke:#856404,stroke-width:2px
+    classDef vlan40 fill:#f5c6cb,color:#000000,stroke:#721c24,stroke-width:2px
 
-    classDef infra fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-    classDef core fill:#d1ecf1,stroke:#0c5460,stroke-width:2px
+    classDef infra fill:#ced4da,color:#000000,stroke:#343a40,stroke-width:2px
+    classDef core fill:#bee5eb,color:#000000,stroke:#0c5460,stroke-width:2px
 
     subgraph Hypervisor
         VM1["VM1<br/>EHR System<br/>VLAN 10"]:::vlan10
@@ -91,3 +91,4 @@ flowchart LR
     VM4 --> NIC4 -->|"Access VLAN 40"| Switch
 
     Switch -->|"802.1Q Trunk"| Router
+
