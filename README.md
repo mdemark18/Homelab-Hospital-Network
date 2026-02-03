@@ -61,7 +61,7 @@ The network is designed with strict Layer 2 and Layer 3 separation:
 
 ```mermaid
 flowchart LR
-    %% ===== High-contrast styles for GitHub =====
+
     classDef vlan10 fill:#b8daff,color:#000000,stroke:#004085,stroke-width:2px
     classDef vlan20 fill:#c3e6cb,color:#000000,stroke:#155724,stroke-width:2px
     classDef vlan30 fill:#ffeeba,color:#000000,stroke:#856404,stroke-width:2px
